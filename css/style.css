@@ -1,0 +1,201 @@
+@font-face {
+    font-family: 'gteestipro';
+    src: url('../fonts/gteestiprotext-light-webfont.woff2') format('woff2'),
+         url('../fonts/gteestiprotext-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {
+    background: black;
+
+}
+
+
+
+h1 { color: white;
+    font-size: 3em;
+font-family: gteestipro;}
+
+.textleft {
+    max-width: 50px;
+    margin: 2em;
+}
+
+.textright {
+    max-width: 50px;
+    margin-left: auto;
+    padding: 2em;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.polygonexterior {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box; 
+
+}
+
+.prefirstrow {
+    display: flex;
+    flex-wrap:nowrap;
+}
+
+.firstrow {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.secondrow {
+    display: flex;
+    flex-wrap: nowrap;
+   
+}
+
+.thirdrow {
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.fourthrow {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.fifthrow {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.sixthrow {
+    display:flex;
+    flex-wrap: nowrap;
+}
+
+.seventhrow {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+svg {
+    margin: -3.3em;
+    max-width: 100;
+    transform: rotate(30deg);
+}
+
+@media only screen and (max-width: 50em) {
+    html {
+        max-width: 100%;
+    }
+    .textleft {
+        max-width: 100;
+        max-height: 10px;
+        margin: 1em;
+    }
+
+    .textright {
+        max-width: 50px;
+        margin-left: auto;
+        margin-top: 100px;
+        padding: 1em;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+
+    h1 { color: white;
+        font-size: 2em;
+    font-family: gteestipro;}
+
+    .polygonexterior {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box; 
+        margin-top: 15em;
+        margin:
+        max-width: 100%;
+    
+    }
+    .prefirstrow {
+        display: flex;
+        flex-wrap:nowrap;
+        box-sizing: content-box;
+        width:248px;
+        align-items: center;
+        justify-content: center;
+        margin: -.4em;
+    }
+    
+    .firstrow {
+        display: flex;
+        flex-wrap: nowrap;
+        box-sizing: content-box;
+        width: 248px;
+        align-items: center;
+        justify-content: center;
+      
+    }
+    
+    .secondrow {
+        display: flex;
+        flex-wrap: nowrap;
+       width: 290px;
+       margin: -.4em;
+    }
+    
+    .thirdrow {
+        display: flex;
+        flex-wrap: nowrap;
+        width:340px;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    .fourthrow {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 290px;
+       margin: -.36em;
+    }
+    
+    .fifthrow {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 248px;
+       align-items: center;
+       justify-content: center;
+    }
+    
+    .sixthrow {
+        display:flex;
+        flex-wrap: nowrap;
+        width: 298px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .seventhrow {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 248px;
+        margin: -.4em;
+        align-items: center;
+        justify-content: center;
+    }
+    svg {
+        display: flex;
+        flex-wrap: nowrap;
+        transform: scale(.30) rotate(-30deg);
+        max-width: 100%;
+        margin: -100px;
+    
+    }
+
+}
