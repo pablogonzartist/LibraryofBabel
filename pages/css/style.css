@@ -8,17 +8,80 @@
 }
 
 html {
-    height: 100%;
-    background:  linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%);
-    background-repeat: no-repeat;
-}
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%);}
 
 
 
-h1 { color: white;
+
+h1 { color: rgb(0, 0, 0);
     font-size: 3em;
 font-family: gteestipro;}
 
+body { margin-top: -2em;}
+
+.header {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mid {
+    display: flex;
+    flex-direction: column;
+}
+
 .wrapper {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-height:
+}
+
+.left {
+    max-width: 400px;
+    font-family: "gteestipro";
+   
+}
+
+.right {
+    max-width: 400px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    font-family: "gteestipro";
+}
+
+svg {
+    margin: 3em;
+    position: sticky;
+    top: 0px;
+}
+
+@media only screen and (max-width: 50em) {
+    html {
+        max-width: 100%;
+    }
+  
+    body {
+        max-width: 100%;
+    }
+    .wrapper {
+
+        max-width: 100%;
+    }
+    .left {
+        margin-left: 3em;
+       
+    }
+    .right {
+        margin-right: 3em;
+    }
+    .mid {
+        transform: scale(.9);
+        margin: -1.5em;
+    }
+
+    svg { margin: 1em;
+        position: sticky;
+        top: 0px;
+    }
+
 }
