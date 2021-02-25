@@ -28,3 +28,16 @@ $(document).ready(function(){
         }
     });
 });
+
+$(document).ready(function(){       
+    var scroll_pos = 0;
+    $(document).scroll(function() { 
+        scroll_pos = $(this).scrollTop();
+        if(scroll_pos > 150 ) {
+            $('.right').css('color', '#fff');
+        } else {
+            $('.right').css('color', '#000');
+        }
+    });
+});
+
