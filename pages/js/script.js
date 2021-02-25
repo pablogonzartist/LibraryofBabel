@@ -1,7 +1,7 @@
 //below script taken from: https://stackoverflow.com/questions/49590560/changing-color-effect-on-scrolling-with-js//
 
 var tStart = 0 // Start transition 100px from top
-  , tEnd = 300  // End at 500px
+  , tEnd = 200  // End at 500px
   , cStart = [255, 255, 255]  // Gold
   , cEnd = [0, 0, 00]   // Lime
   , cDiff = [cEnd[0] - cStart[0], cEnd[1] - cStart[1], cEnd[1] - cStart[0]];
