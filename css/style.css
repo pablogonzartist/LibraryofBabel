@@ -9,7 +9,6 @@
 
 html {
     background: black;
-
 }
 
 
@@ -37,7 +36,14 @@ font-family: gteestipro;}
     align-items: center;
     justify-content: center;
     box-sizing: border-box; 
+    transform: scale(.80);
+    margin: -22em;
 
+}
+
+a {
+    text-decoration: none;
+    margin: -.09999em;
 }
 
 .prefirstrow {
@@ -88,6 +94,14 @@ svg {
     transform: rotate(30deg);
 }
 
+svg:hover {
+    animation: flash;
+    animation-duration: 2s;
+   
+}
+
+
+
 @media only screen and (max-width: 50em) {
     html {
         max-width: 100%;
@@ -101,7 +115,7 @@ svg {
     .textright {
         max-width: 50px;
         margin-left: auto;
-        margin-top: 100px;
+        margin-top: 400px;
         padding: 1em;
         transform: matrix(-1, 0, 0, 1, 0, 0);
     }
@@ -118,8 +132,7 @@ svg {
         justify-content: center;
         box-sizing: border-box; 
         margin-top: 15em;
-        margin:
-        max-width: 100%;
+       
     
     }
     .prefirstrow {
